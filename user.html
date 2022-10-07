@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App -- User</title>
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script defer src="js/custom.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <img src="img/car-service.png" width="48px">
+    </nav>
+    <main>
+        <div>
+        <div class="head">
+            <div class="box_reserva">
+                <h2>Información de usuario</h2>
+            </div>
+            <div class="box_res_send">
+                <input id="input_reserva" type="text" placeholder="Juan Manuel Garzón" />
+            </div>
+        </div>
+        <div class="cont">
+            <h5>Información de pagos:</h5>
+            <div class="user">
+                <table id="MecWash">
+                    <thead>
+                        <tr>
+                            <th>Método de pago</th>
+                            <th>Total</th>
+                            <th>Moneda</th>
+                            <th>Fecha</th>
+                            <th>Referencia</th>
+                            <th>Documento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input placeholder="Visa"></td>
+                            <td><input placeholder="92000"></td>
+                            <td><input placeholder="Cop"></td>
+                            <td><input placeholder="10/27/2022"></td>
+                            <td><input placeholder="RF2402"></td>
+                            <td><input placeholder="1010288564"></td>
+                        </tr>
+                        <tr>
+                            <td><input placeholder="MasterCard"></td>
+                            <td><input placeholder="18000"></td>
+                            <td><input placeholder="MXN"></td>
+                            <td><input placeholder="12/01/2022"></td>
+                            <td><input placeholder="RF2810"></td>
+                            <td><input placeholder="1010288564"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button id="" onclick="function()">Enviar</button>
+            <!--         <button id="btn_send_payments" onclick="post_comment()">Enviar</button>
+     -->
+        </div>
+    </div>
+    </main>
+
+
+</body>
