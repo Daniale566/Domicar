@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App -- Lavandero</title>
+    <link rel="icon" type="image/x-icon" href="img/car-service.png">
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/lavandero.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d46c872266.js" crossorigin="anonymous"></script>
+</head>
+<html>
+    <header>
+            <nav>
+                <div class="nav_cont">
+                    <div>
+                        <img src="img/car-service.png" width="48px">
+                        <p>Lavandero</p>
+                    </div>
+                    <div>
+                        <div id="nav_info_usr">
+                            <p><span id="user_name_email"></span></p>
+                        </div>
+                        <a class="nav-link logged_in" href="#" id="log_out">
+                            <i class="fa-solid fa-power-off"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <body>
+        <div class="cont_body">
+            <img src="img/car_wash.png" class="background_img">
+            <main>
+                <div>
+                    <div class="head">
+                        <div class="box_reserva">
+                            <h2>Oferta Servicios</h2>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <div class="user" id="cont_cards">
+                            <h2>En el momento no hay pedidos para éste tipo de Servicio</h2>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <div class="cont_succesful_appointment">
+                <div class="box_succesful_appointment">
+                    <div class="succesful_appointment">
+                        <h2>¡El servicio se ha agendado correctamente!<br>Recuerda llegar temprano para tener una buena calificación del cliente ;)</h2>
+                    </div>
+                </div>
+            </div>
+            <script src="js/lavandero.js" type="module"></script>
+            <script defer src="./components/handler_service.js" type="text/javascript"></script>
+        </div>
+    </body> 
+    <footer>      
+    </footer>
+</html>
