@@ -1,0 +1,28 @@
+nav{
+    background-color: rgb(57 34 185);
+}
+
+body{
+    background-color: #5b68c4;
+}
+
+.box_reserva {
+    background-color: #5b68c4;
+}
+
+.cont{
+    background: #5b68c4;
+}
+
+.box_card{
+    color: #ffffff;
+}
+
+.box_card h3 span {
+    color: #bbafc5;
+}
+
+.card_service_user{
+    background-color: rgb(77 75 197);
+    color: #ffffff;
+}
